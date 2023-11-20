@@ -79,6 +79,12 @@
 /* Title for info card when the product is in analysis mode */
 "Shopping.InfoCard.ProgressAnalysis.Title.v120" = "Değerlendirme kalitesi kontrol ediliyor";
 
+/* This description appears beneath the confirmation title on the information card to inform the user that their report regarding the product stock status has been received and is being processed. It serves to set the expectation that the review information will be updated within 24 hours and invites the user to revisit the product page for updates. */
+"Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" = "Bu ürünün değerlendirmeleriyle ilgili 24 saat içinde bilgi alacağız. Lütfen daha sonra tekrar kontrol edin.";
+
+/* This title is displayed on the information card as a confirmation message after a user reports that a previously out-of-stock product is now available. It's meant to acknowledge the user's contribution and encourage community engagement by letting them know their report has been successfully submitted. */
+"Shopping.InfoCard.ReportSubmittedByCurrentUser.Title.v121" = "Bildirdiğiniz için teşekkürler!";
+
 /* Text for the analyzer button displayed when an analysis can be updated for a product. */
 "Shopping.NoAnalysisCard.AnalyzerButton.Title.v120" = "Değerlendirme kalitesini kontrol et";
 
@@ -130,11 +136,20 @@
 /* Adjusted rating label from How we determine review quality card displayed in the shopping review quality bottom sheet. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly. */
 "Shopping.ReviewQualityCard.AdjustedRating.Label.v120" = "*Düzeltilmiş puan* yalnızca güvenilir olduğunu düşündüğümüz değerlendirmelere dayanır.";
 
+/* Accessibility label for the up chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.Collapse.AccessibilityLabel.v120" = "\"Değerlendirme kalitesini nasıl belirliyoruz\" kartını daralt";
+
+/* Accessibility label for the down chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet. */
+"Shopping.ReviewQualityCard.Expand.AccessibilityLabel.v120" = "\"Değerlendirme kalitesini nasıl belirliyoruz\" kartını genişlet";
+
 /* Highlights label from How we determine review quality card displayed in the shopping review quality bottom sheet. The parameter substitutes the partner website the user is coming from. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly. */
 "Shopping.ReviewQualityCard.Highlights.Label.v120" = "*Öne çıkanlar* son 80 gün içindeki güvenilir olduğunu düşündüğümüz %1@ değerlendirmelerinden alınmıştır.";
 
 /* Title of the 'How we determine review quality' card displayed in the shopping review quality bottom sheet. */
 "Shopping.ReviewQualityCard.Label.Title.v120" = "Değerlendirme kalitesini nasıl belirliyoruz?";
+
+/* The title of the learn more button from How we determine review quality card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the Fakespot app name. */
+"Shopping.ReviewQualityCard.LearnMoreButton.Title.v120" = "%@ aracının inceleme kalitesini nasıl belirlediğini öğrenin";
 
 /* Mixed reviews label from How we determine review quality card displayed in the shopping review quality bottom sheet. */
 "Shopping.ReviewQualityCard.MixedReviews.Label.v120" = "Güvenilir ve güvenilmez değerlendirmelerin bir karışımı olduğunu düşünüyoruz";
@@ -153,6 +168,9 @@
 
 /* Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet. */
 "Shopping.SettingsCard.Expand.AccessibilityLabel.v120" = "Ayarlar kartını genişlet";
+
+/* Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla. */
+"Shopping.SettingsCard.Footer.Action.v120" = "Değerlendirme kontrolcüsü, %2$@ ailesinden %1$@ altyapısını kullanır";
 
 /* Title of the settings card displayed in the shopping review quality bottom sheet. */
 "Shopping.SettingsCard.Label.Title.v120" = "Ayarlar";
